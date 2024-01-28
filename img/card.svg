@@ -1,0 +1,30 @@
+<svg id="vector" width="770" height="550" viewBox="0 0 385 275" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <clipPath id="clip_path_0">
+      <path d="M8,8L28,8A4,4 0,0 1,32 12L32,24A4,4 0,0 1,28 28L8,28A4,4 0,0 1,4 24L4,12A4,4 0,0 1,8 8z"></path>
+    </clipPath>
+    <bx:grid x="0" y="0" height="5" width="5"></bx:grid>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="9.44" cy="13.44" r="14" id="gradient-0" gradientTransform="matrix(1.609011, 0, 0, 1.609011, -5.749068, -8.185114)">
+      <stop offset="0" style="stop-color: rgba(119, 0, 179, 1)"></stop>
+      <stop offset="1" style="stop-color: rgb(51, 0, 77);"></stop>
+    </radialGradient>
+	<linearGradient gradientUnits="userSpaceOnUse" x1="25.399" y1="22.508" x2="25.399" y2="26.135" id="gradient-1" gradientTransform="matrix(-0.000004, -1, 2.599959, 0, -37.835843, 49.720252)">
+		<stop offset="0" style="stop-color: rgb(123, 0, 255);"></stop>
+		<stop offset="1" style="stop-color: rgb(213, 0, 255);"></stop>
+	</linearGradient>
+	<style bx:fonts="Nunito">@import url(https://fonts.googleapis.com/css2?family=Nunito%3Aital%2Cwght%400%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&amp;display=swap);</style>
+  </defs>
+  <g id="g_0" style="" transform="matrix(13.785714, 0, 0, 13.785714, -55.142857, -110.285713)">
+	<rect width="27.928" height="19.948" style="fill: url(#gradient-0);" x="4" y="8" ry="4" rx="4"></rect>
+    <path d="M 22.497 22.508 L 28.3 22.508 C 29.302 22.508 30.114 23.32 30.114 24.321 C 30.114 25.322 29.302 26.135 28.3 26.135 L 22.497 26.135 C 21.496 26.135 20.684 25.322 20.684 24.321 C 20.684 23.32 21.496 22.508 22.497 22.508 Z" style="fill: url(#gradient-1);"></path>
+	<text style="fill: rgb(255, 255, 255); font-family: Nunito; font-size: 2.1px; font-weight: 700; white-space: pre;" x="22.334" y="25.041">9999р</text>
+  </g>
+  <g style="" transform="matrix(0.999995, 0, 0, 0.999995, 49.05928, 56.014271)">
+    <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 10px; stroke: rgb(123, 0, 255);" d="M 25.941 13.986 L -4.059 33.986 L 25.941 53.986 L 55.941 33.986 L 25.941 13.986 Z"></path>
+    <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M -4.059 33.986 L -4.059 3.986"></path>
+    <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 25.941 53.986 L 25.941 23.986"></path>
+    <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 25.941 13.986 L 25.941 -16.014"></path>
+    <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 55.941 33.986 L 55.941 3.986"></path>
+    <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(213, 0, 255); stroke-width: 10px;" d="M 25.941 -16.014 L -4.059 3.986 L 25.941 23.986 L 55.941 3.986 L 25.941 -16.014 Z"></path>
+  </g>
+</svg>

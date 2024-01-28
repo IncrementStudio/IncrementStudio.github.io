@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="10 10 80 80" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" height="5" width="5"/>
+  </defs>
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 10px; stroke: rgb(123, 0, 255);" d="M 50 45 L 20 65 L 50 85 L 80 65 L 50 45 Z">
+    <animate id="down1" attributeName="d" values="M 50 85 L 80 65 L 50 45 L 20 65 L 50 85 Z;M 20 65 L 50 45 L 50 15 L 20 35 L 20 65 Z" begin="0s;down4.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="down2" attributeName="d" values="M 20 65 L 50 45 L 50 15 L 20 35 L 20 65 Z;M 20 35 L 50 15 L 80 35 L 50 55 L 20 35 Z" begin="down1.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="down3" attributeName="d" values="M 20 35 L 50 15 L 80 35 L 50 55 L 20 35 Z;M 50 15 L 50 45 L 80 65 L 80 35 L 50 15 Z" begin="down2.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="down4" attributeName="d" values="M 50 15 L 50 45 L 80 65 L 80 35 L 50 15 Z;M 50 45 L 20 65 L 50 85 L 80 65 L 50 45 Z" begin="down3.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+  </path>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 20 65 L 20 35">
+    <animate id="line1_1" attributeName="d" values="M 80 65 L 80 35;M 50 45 L 80 65" begin="0s;line1_4.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line1_2" attributeName="d" values="M 50 45 L 80 65;M 50 15 L 50 45" begin="line1_1.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line1_3" attributeName="d" values="M 50 15 L 50 45;M 50 45 L 20 65" begin="line1_2.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line1_4" attributeName="d" values="M 50 45 L 20 65;M 20 65 L 20 35" begin="line1_3.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+  </path>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 50 85 L 50 55">
+    <animate id="line2_1" attributeName="d" values="M 50 45 L 50 15;M 50 15 L 80 35" begin="0s;line2_4.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line2_2" attributeName="d" values="M 50 15 L 80 35;M 80 35 L 80 65" begin="line2_1.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line2_3" attributeName="d" values="M 80 35 L 80 65;M 80 65 L 50 85" begin="line2_2.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line2_4" attributeName="d" values="M 80 65 L 50 85;M 50 85 L 50 55" begin="line2_3.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+  </path>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 50 45 L 50 15">
+    <animate id="line3_1" attributeName="d" values="M 50 85 L 50 55;M 20 65 L 50 85" begin="0s;line3_4.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line3_2" attributeName="d" values="M 20 65 L 50 85;M 20 35 L 20 65" begin="line3_1.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line3_3" attributeName="d" values="M 20 35 L 20 65;M 50 15 L 20 35" begin="line3_2.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line3_4" attributeName="d" values="M 50 15 L 20 35;M 50 45 L 50 15" begin="line3_3.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+  </path>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 80 65 L 80 35">
+    <animate id="line4_1" attributeName="d" values="M 20 65 L 20 35;M 20 35 L 50 55" begin="0s;line4_4.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line4_2" attributeName="d" values="M 20 35 L 50 55;M 50 55 L 50 85" begin="line4_1.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line4_3" attributeName="d" values="M 50 55 L 50 85;M 80 35 L 50 55" begin="line4_2.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="line4_4" attributeName="d" values="M 80 35 L 50 55;M 80 65 L 80 35" begin="line4_3.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+  </path>
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(213, 0, 255); stroke-width: 10px;" d="M 50 15 L 20 35 L 50 55 L 80 35 L 50 15 Z">
+    <animate id="up1" attributeName="d" values="M 50 55 L 80 35 L 50 15 L 20 35 L 50 55 Z;M 50 85 L 80 65 L 80 35 L 50 55 L 50 85 Z" begin="0s;up4.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="up2" attributeName="d" values="M 50 85 L 80 65 L 80 35 L 50 55 L 50 85 Z;M 20 65 L 50 45 L 80 65 L 50 85 L 20 65 Z" begin="up1.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="up3" attributeName="d" values="M 20 65 L 50 45 L 80 65 L 50 85 L 20 65 Z;M 20 35 L 20 65 L 50 85 L 50 55 L 20 35 Z" begin="up2.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+    <animate id="up4" attributeName="d" values="M 20 35 L 20 65 L 50 85 L 50 55 L 20 35 Z;M 50 15 L 20 35 L 50 55 L 80 35 L 50 15 Z" begin="up3.end" dur="0.5s" calcMode="spline" keyTimes="0; 1" keySplines="0 0 0.58 1"/>
+  </path>
+</svg>

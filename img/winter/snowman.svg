@@ -1,0 +1,36 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" width="5" height="5"></bx:grid>
+    <filter id="gaussian-blur-filter-0" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%" bx:preset="gaussian-blur 1 5">
+      <feGaussianBlur stdDeviation="5 5" edgeMode="none"></feGaussianBlur>
+    </filter>
+  </defs>
+  <rect width="500" height="500" style="stroke: rgb(0, 0, 0); stroke-width: 0px; visibility: hidden;"></rect>
+  <g style="">
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(204, 204, 204);" cx="125" cy="375" rx="100" ry="100"></ellipse>
+    <path d="M 137.5 450 C 89.175 450 50 410.825 50 362.5 C 50 316.205 85.952 278.308 131.459 275.205 C 181.542 278.398 221.602 318.458 224.795 368.541 C 221.692 414.048 183.795 450 137.5 450 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(255, 255, 255);"></path>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; visibility: hidden;" cx="130" cy="370" rx="10" ry="10"></ellipse>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; visibility: hidden;" cx="130" cy="400" rx="10" ry="10"></ellipse>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; visibility: hidden;" cx="130" cy="430" rx="10" ry="10"></ellipse>
+  </g>
+  <g style="">
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(221, 221, 221);" cx="125.08" cy="275" rx="75" ry="75"></ellipse>
+    <path d="M 125.08 200 C 164.084 200 196.134 229.773 199.742 267.832 C 196.471 299.955 169.871 325 137.54 325 C 103 325 75 296.415 75 261.154 C 75 232.614 93.344 208.447 118.651 200.272 C 120.77 200.092 122.914 200 125.08 200 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(255, 255, 255);"></path>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; visibility: hidden;" cx="130" cy="270" rx="10" ry="10"></ellipse>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; visibility: hidden;" cx="130" cy="300" rx="10" ry="10"></ellipse>
+    <path d="M 125 270 C 98.651 270 76.27 251.601 68.205 226.015 C 81.958 210.083 102.302 200 125 200 C 147.698 200 168.042 210.083 181.795 226.015 C 173.73 251.601 151.349 270 125 270 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(255, 0, 255); filter: url(#gaussian-blur-filter-0);  visibility: hidden;"></path>
+    <path d="M 125 270 C 98.651 270 76.27 251.601 68.205 226.015 C 81.958 210.083 102.302 200 125 200 C 147.698 200 168.042 210.083 181.795 226.015 C 173.73 251.601 151.349 270 125 270 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(255, 0, 255); visibility: hidden;"></path>
+    <path d="M 125 260 C 102.117 260 82.324 244.145 72.849 221.099 C 86.346 208.037 104.735 200 125 200 C 145.265 200 163.654 208.037 177.151 221.099 C 167.676 244.145 147.884 260 125 260 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(207, 0, 255); visibility: hidden;"></path>
+  </g>
+  <g style="">
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(238, 238, 238);" cx="125" cy="200" rx="50" ry="50"></ellipse>
+    <path d="M 137.5 225 C 116.789 225 100 208.211 100 187.5 C 100 168.761 113.745 153.232 131.703 150.445 C 153.955 153.427 171.573 171.045 174.555 193.297 C 171.768 211.255 156.239 225 137.5 225 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(255, 255, 255);"></path>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; visibility: hidden;" cx="147.5" cy="182.5" rx="7.5" ry="7.5"></ellipse>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; visibility: hidden;" cx="117.5" cy="182.5" rx="7.5" ry="7.5"></ellipse>
+    <path d="M 103.125 144.445 Q 112.5 111.111 121.875 144.445 L 121.875 144.445 Q 131.25 177.778 112.5 177.778 L 112.5 177.778 Q 93.75 177.778 103.125 144.445 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; opacity: 1; fill: rgb(255, 138, 0); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0, 1, -1, 0, 32.5, 54.722)" bx:shape="triangle 93.75 111.111 37.5 66.667 0.5 0.5 1@ebb864be"></path>
+  </g>
+  <g>
+    <path style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(238, 238, 238);" d="M 0.136 399.252 C 35.711 438.215 125 450 200 425 C 275 400 375 450 400 500 L 0 500"></path>
+    <path style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(255, 255, 255);" d="M 0 450 C 35.575 488.963 100 425 200.08 475 C 300.16 525 375 413.005 450 500 L 0 500.748"></path>
+  </g>
+</svg>
