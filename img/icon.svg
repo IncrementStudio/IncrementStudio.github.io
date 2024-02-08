@@ -1,12 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="10 10 80 80" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <defs>
-    <bx:grid x="0" y="0" height="5" width="5"/>
+    <bx:grid x="0" y="0" height="5" width="5"></bx:grid>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="20" y1="35" x2="20" y2="65" id="gradient-0">
+      <stop offset="0" style="stop-color: rgb(213, 0, 255);"></stop>
+      <stop offset="1" style="stop-color: rgb(123, 0, 255);"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="50" y1="55" x2="50" y2="85" id="gradient-1">
+      <stop offset="0" style="stop-color: rgb(213, 0, 255);"></stop>
+      <stop offset="1" style="stop-color: rgb(123, 0, 255);"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="80" y1="35" x2="80" y2="65" id="gradient-2" gradientTransform="matrix(0.99999, -0.00454, 0, 1, 0.000825, 0.36321)">
+      <stop offset="0" style="stop-color: rgb(213, 0, 255);"></stop>
+      <stop offset="1" style="stop-color: rgb(123, 0, 255);"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="50" y1="15" x2="50" y2="45" id="gradient-3">
+      <stop offset="0" style="stop-color: rgb(213, 0, 255);"></stop>
+      <stop offset="1" style="stop-color: rgb(123, 0, 255);"></stop>
+    </linearGradient>
   </defs>
-  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 10px; stroke: rgb(123, 0, 255);" d="M 50 85 L 80 65 L 50 45 L 20 65 L 50 85 Z"/>
-  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 80 65 L 80 35"/>
-  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 50 45 L 50 15"/>
-  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 50 85 L 50 55"/>
-  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(168, 0, 255); stroke-width: 10px;" d="M 20 65 L 20 35"/>
-  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(213, 0, 255); stroke-width: 10px;" d="M 50 55 L 80 35 L 50 15 L 20 35 L 50 55 Z"/>
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 10px; stroke: rgb(123, 0, 255);" d="M 50 85 L 80 65 L 50 45 L 20 65 L 50 85 Z"></path>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke-width: 10px; stroke: url(#gradient-2);" d="M 80 65 L 80 35"></path>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke-width: 10px; stroke: url(#gradient-3);" d="M 50 45 L 50 15"></path>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke-width: 10px; stroke: url(#gradient-1);" d="M 50 85 L 50 55"></path>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke-width: 10px; stroke: url(#gradient-0);" d="M 20 65 L 20 35"></path>
+  <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(213, 0, 255); stroke-width: 10px;" d="M 50 55 L 80 35 L 50 15 L 20 35 L 50 55 Z"></path>
 </svg>

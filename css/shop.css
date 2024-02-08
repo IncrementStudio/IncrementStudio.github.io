@@ -39,12 +39,12 @@
 }
 
 .shop__card {
-  width: 600px;
+  width: 500px;
   -webkit-transform: scale(0);
           transform: scale(0);
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  height: 400px;
+  height: 350px;
   margin: 15px;
   background-color: #350050;
   border-color: rgba(168, 0, 255, 0);
@@ -114,7 +114,8 @@
 .shop__card__description {
   position: relative;
   display: block;
-  font-size: 22px;
+  line-height: 20px;
+  font-size: 20px;
   margin-top: 10px;
   margin-left: 25px;
   margin-right: 25%;
